@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="attachicon.png" />
+    <None Remove="attachmenticon.png" />
+    <None Remove="backicon.png" />
+    <None Remove="cameraicon.jpg" />
+    <None Remove="catto.jpg" />
+    <None Remove="microphoneicon.png" />
+    <None Remove="sendicon.jpg" />
+    <None Remove="smileicon.png" />
+    <None Remove="threedot.png" />
+    <None Remove="videocallicon.jpg" />
+    <None Remove="voicecallicon.PNG" />
+    <None Remove="wpbackground.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="attachicon.png" />
+    <Resource Include="attachmenticon.png" />
+    <Resource Include="backicon.png" />
+    <Resource Include="cameraicon.jpg" />
+    <Resource Include="catto.jpg" />
+    <Resource Include="microphoneicon.png" />
+    <Resource Include="sendicon.jpg" />
+    <Resource Include="smileicon.png" />
+    <Resource Include="threedot.png" />
+    <Resource Include="videocallicon.jpg" />
+    <Resource Include="voicecallicon.PNG" />
+    <Resource Include="wpbackground.jpg" />
+  </ItemGroup>
+
+</Project>
